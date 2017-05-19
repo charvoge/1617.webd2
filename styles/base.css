@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+.home {
+    display: block;
+    margin: 15px 0;
+    height: auto; /* 350 */
+    width: 100%;
+ }
+body {
+ font-family: "caviar dreams";
+ font-weight: bold;
+}
+
+.map {
+    background-repeat: no-repeat;
+    background-size: contain ;
+    margin: 20px;
+    height: 350px;
+    width: 500px;
+    position: center ; 
+ }
+
+ h1 {
+     font-size: 30pt;
+     padding: 20px 0;
+ }
+
+ h2 {
+     color: white;
+     font-size: 20pt;
+ }
+
+footer {
+    background-color: rgba(63,123,127,1.00);
+    margin-top: 150px;
+    padding: 20px 0;
+}
+
+footer p {
+    color: white;
+}
+
+.border{
+    border-bottom:5px solid rgb(239,197,132);
+    text-align: center;
+}
+
+.portfolio{
+    position: relative;
+
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:white;
+}
+
+.vlak{
+    background:rgba(63,123,127,1.00)
+}
+
+.afbeelding{
+    margin:20px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+

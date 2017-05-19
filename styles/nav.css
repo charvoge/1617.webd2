@@ -1,0 +1,107 @@
+nav ul.mainul{
+    list-style: none;
+    padding: 0 12px;
+    margin: 0 auto;
+    width: 1140px;
+}
+
+
+#main-navigation ul li {
+    display: inline-block;       /*naast elkaar gaan zweven*/
+    position: relative;
+    width: 20%;
+}
+
+#main-navigation ul.mainul li:first-child a {
+    border-left: 2px solid white;
+}
+
+#main-navigation ul.mainul li:last-child a {
+    border-right: 2px solid white;
+}
+
+#main-navigation ul.mainul li a
+{         /*pijltjes zodat het alleen de hoofdnavigatie beinvloedt*/
+    display: block;
+    background-color: rgba(63,123,127,1.00);      /* a: max waarde 1: transparantie--> doorschijnende vlakken maken*/
+    padding: 20px 0;      /* 2 waarden ipv 4: 5px: verticale waarden, 10px: horzintale waarden*/
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    border-right: 2px solid white;
+}
+
+#main-navigation ul li:last-of-type a {
+    border:none;
+}
+
+#main-navigation ul li a:hover{
+    background-color: rgb(48,93,100);
+}
+
+#main-navigation ul li a:active{
+    background-color:rgb(48,93,97);
+}
+
+#main-navigation ul li a.active{
+    background-color: white;
+}
+
+#main-navigation ul.mainul li.hasSubNav ul {
+    background-color: rgb(48,93,100);
+    display: none;          /*subnavigatie niet altijd zichtbaar*/
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+    left:0;
+    right: 2px;
+    top: 100%;
+}
+
+
+#main-navigation ul.mainul li.hasSubNav ul li {
+    background-color: rgb(48,93,100);
+    border-bottom: 2px solid white;
+    border-left: none !important;
+    border-right: none !important;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+#main-navigation ul.mainul li.hasSubNav ul li:first-child {
+    border-top: 2px solid white;
+}
+
+#main-navigation ul.mainul li.hasSubNav ul li:last-child {
+    border-bottom: 0;
+}
+
+#main-navigation ul.mainul li.hasSubNav:hover ul {
+    display: block;
+}
+
+#main-navigation ul.mainul .hasSubNav ul li a {
+    border: none;
+    color: white;
+    padding: 10px 0;
+    display:block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hasSubNav ul li a:active {
+    display: block;
+    /* Charlotte werk */
+}
+
+#main-navigation{
+    text-align: center;
+    background-color: rgba(63,123,127,1.00);
+}
+
+.header-wrapper{
+	background-color: rgb(62,123,127);
+}
