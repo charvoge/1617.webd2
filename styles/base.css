@@ -46,20 +46,6 @@ footer p {
     padding: 10px;
 }
 
-/*.portfolio{
-    position: relative;
-
-}*/
-
-/*.overlay{
-    position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:white;
-}*/
-
 .vlak{
     background:rgba(63,123,127,1.00)
 }
@@ -84,8 +70,6 @@ footer p {
     color:white;
     text-decoration: none; 
 }
-
-
 
 input{
     margin: 20px 0px;
@@ -115,3 +99,9 @@ iframe{
     margin-bottom:10px;
     
 }
+
+.wiezijnwe{
+    width: 300px;
+    margin:40px;
+}
+
