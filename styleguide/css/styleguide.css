@@ -1,0 +1,92 @@
+/* 1. BASE: basisstijlen van de HTML-elementen */
+
+body{
+    font-family: "caviar dreams";
+}
+
+
+
+a,
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(61,123,127);
+    text-decoration: underline;
+}
+
+/* 2. COMPONENTS: onderdelen, worden in de algemene lay-out geplaatst */
+
+.button {
+    
+    border-style: solid;
+    border-width: 0 0 .25em;
+    display: inline-block;
+    font-weight: bold;
+    padding: .25em .5em;
+    text-decoration: none;
+}
+.button:hover {
+    text-decoration: none;
+}
+.button--home,
+.button--home:active,
+.button--home:visited {
+    background-color:    rgb(61,123,127);
+    color: #FFF;
+}
+.button--home:hover {
+    background-color:   rgb(100,123,127);
+    color: #FFF;
+}
+.button--wiezijnwe,
+.button--wiezijnwe:active,
+.button--wiezijnwe:visited {
+    background-color:    rgb(61,123,127);
+    color: #FFF;
+}
+.button--wiezijnwe:hover {
+    background-color:    rgb(100,123,127);
+    color: #FFF;
+}
+.button--diensten,
+.button--diensten:active,
+.button--diensten:visited {
+    background-color:  rgb(61,123,127);
+    color: #FFF;
+}
+.button--diensten:hover {
+    background-color:   rgb(100,123,127);
+    color: #FFF;
+}
+.button--portfolio,
+.button--portfolio:active,
+.button--portfolio:visited {
+    background-color:   rgb(61,123,127);
+    color: #FFF;
+}
+.button--portfolio:hover {
+    background-color:   rgb(100,123,127);
+    color: #FFF;
+}
+
+.colours__colour--a {
+    background-color: rgb(61,123,127);
+}
+.colours__colour--b {
+    background-color: rgb(238,196,131);
+}
+.colours__colour--c {
+    background-color: rgb(100,123,127);
+}
+.colours__colour--d {
+    background-color:rgb(243,172,85);
+}
+.colours__colour--e {
+    background-color: rgb(98,196,204);
+}
+
+
+
+
